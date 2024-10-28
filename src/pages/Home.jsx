@@ -6,7 +6,7 @@ export default function App() {
 useEffect(() => {
     const receberListaProdutos = async () => {
     try{
-        const resposta = await fetch('');
+        const resposta = await fetch('https://fakestoreapi.com/products');
         const dados = await resposta.json();
         setLista(dados);
     } catch{
