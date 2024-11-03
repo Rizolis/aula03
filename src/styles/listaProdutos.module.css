@@ -1,5 +1,21 @@
-.home {
+.Home{
+   text-align: center;
+   padding: 20px;
+    color:red;
+    margin: 20px 0;
+  }
+  .blocoLista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .blocoLista li{
+    background-color: #7f2a80e6;
+    width: 180px;
+    padding: 10px;
     text-align: center;
-    padding: 200px;
-    background-color: brown;
-}
+  }
