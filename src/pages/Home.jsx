@@ -18,6 +18,11 @@ export default function Home() {
     receberListaProdutos();
   }, []);
 
+  if(lista.length === 0){
+    return <h2>Carregando</h2>
+ }
+
+
   return (
     <div>
       <h2 className={styles.Home}>Listagem de Produtos</h2>
